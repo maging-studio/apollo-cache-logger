@@ -1,4 +1,4 @@
-import { ApolloCache, Cache, Transaction } from 'apollo-cache';
+import { ApolloCache, Cache, Transaction } from '@apollo/client';
 import { DocumentNode, print } from 'graphql';
 
 export interface LogOptions {
